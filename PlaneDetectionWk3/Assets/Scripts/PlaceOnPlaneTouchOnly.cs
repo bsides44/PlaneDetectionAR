@@ -44,6 +44,20 @@ public class PlaceOnPlaneTouchOnly : MonoBehaviour
             {
                 spawnedObject.transform.position = firstHit.position;
             }
+
+            // Ray raycast = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
+            // RaycastHit raycastHit;
+            // if (Physics.Raycast(raycast, out raycastHit))
+            // {
+            //     if (raycastHit.collider)
+            //     {
+            //         var mySphere = raycastHit;
+            //         var scale = new Vector3(0.1f,0.1f,0.1f);
+            //         scale += new Vector3(0.1f,0.1f,0.1f);
+            //         mySphere.transform.localScale = scale;
+            //     }
+
+            // }
         }
     }
 }

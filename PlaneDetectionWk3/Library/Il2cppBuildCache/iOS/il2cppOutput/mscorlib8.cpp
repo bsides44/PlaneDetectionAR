@@ -1058,10 +1058,12 @@ IL2CPP_EXTERN_C const RuntimeMethod* ObjectWriter_Write_m68D53A19932D4FA9DB788DF
 IL2CPP_EXTERN_C const RuntimeMethod* ObjectWriter__ctor_mE31227E9D51851161EFB5A996B30F9E6816D8C04_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ObjectWriter_get_ObjectManager_m513A04277E45F8A08D3EB7DD9B582F7938D44E15_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_Equals_m6E8965587E01BDEC1CDF25DE69A64253CD97EF85_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Object_Equals_mBE334AF263BDADA1D0F1DE7E14456A63E47F8053_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_FieldGetter_m576B7D974ACE1B8F67D35326EEB6C228CFA7C161_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_FieldSetter_mF717A48B0232A56260B22B9E400FEBD0E0338E3D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_Finalize_mC59C83CF4F7707E425FFA6362931C25D4C36676A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_GetHashCode_m29972277898725CF5403FB9765F335F0FAEA8162_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Object_ReferenceEquals_mA7C1CBF0A14206E38473230C8A96D23EFECE6A1F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_ToString_m6EEDE9678ACEB962C586D13EC873DE2948668B06_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SerializationFieldInfo_get_FieldInfo_mAC0600A5AE4105AD55C1677ED5FE2DD257F0BC67_RuntimeMethod_var;
@@ -23877,6 +23879,60 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_Equals_m6E8965587E01BDEC1CDF25DE6
 		return (bool)((((RuntimeObject*)(RuntimeObject *)__this) == ((RuntimeObject*)(RuntimeObject *)L_0))? 1 : 0);
 	}
 }
+// System.Boolean System.Object::Equals(System.Object,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_Equals_mBE334AF263BDADA1D0F1DE7E14456A63E47F8053 (RuntimeObject * ___objA0, RuntimeObject * ___objB1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Equals_mBE334AF263BDADA1D0F1DE7E14456A63E47F8053_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Object_Equals_mBE334AF263BDADA1D0F1DE7E14456A63E47F8053_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		RuntimeObject * L_0 = ___objA0;
+		RuntimeObject * L_1 = ___objB1;
+		if ((!(((RuntimeObject*)(RuntimeObject *)L_0) == ((RuntimeObject*)(RuntimeObject *)L_1))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_0006:
+	{
+		RuntimeObject * L_2 = ___objA0;
+		if (!L_2)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		RuntimeObject * L_3 = ___objB1;
+		if (L_3)
+		{
+			goto IL_000e;
+		}
+	}
+
+IL_000c:
+	{
+		return (bool)0;
+	}
+
+IL_000e:
+	{
+		RuntimeObject * L_4 = ___objA0;
+		RuntimeObject * L_5 = ___objB1;
+		NullCheck(L_4);
+		bool L_6;
+		L_6 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, L_4, L_5);
+		return L_6;
+	}
+}
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405 (RuntimeObject * __this, const RuntimeMethod* method)
 {
@@ -23956,6 +24012,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Object_ToString_m6EEDE9678ACEB962C5
 		String_t* L_1;
 		L_1 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_0);
 		return L_1;
+	}
+}
+// System.Boolean System.Object::ReferenceEquals(System.Object,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_ReferenceEquals_mA7C1CBF0A14206E38473230C8A96D23EFECE6A1F (RuntimeObject * ___objA0, RuntimeObject * ___objB1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_ReferenceEquals_mA7C1CBF0A14206E38473230C8A96D23EFECE6A1F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Object_ReferenceEquals_mA7C1CBF0A14206E38473230C8A96D23EFECE6A1F_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		RuntimeObject * L_0 = ___objA0;
+		RuntimeObject * L_1 = ___objB1;
+		return (bool)((((RuntimeObject*)(RuntimeObject *)L_0) == ((RuntimeObject*)(RuntimeObject *)L_1))? 1 : 0);
 	}
 }
 // System.Int32 System.Object::InternalGetHashCode(System.Object)

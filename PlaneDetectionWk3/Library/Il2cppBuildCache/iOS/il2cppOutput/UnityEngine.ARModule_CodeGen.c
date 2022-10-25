@@ -36,10 +36,10 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[2] =
 };
 static const int32_t s_InvokerIndices[4] = 
 {
-	1823,
-	1843,
-	3046,
-	3046,
+	1945,
+	1966,
+	3233,
+	3233,
 };
 extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnityEngine_ARModule;
 extern const CustomAttributesCacheGenerator g_UnityEngine_ARModule_AttributeGenerators[];

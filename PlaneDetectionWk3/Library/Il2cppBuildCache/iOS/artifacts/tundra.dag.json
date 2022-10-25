@@ -20,37 +20,56 @@
       "DebugActionIndex": 0
     },
     {
-      "Annotation": "Il2Cpp /Users/Shared/Unity/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/il2cppOutput/Data/Metadata/global-metadata.dat",
-      "Action": "\"/Applications/Unity/Hub/Editor/2020.3.16f1/Unity.app/Contents/il2cpp/build/deploy/netcoreapp3.1/il2cpp\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --additional-cpp=\"/Users/Shared/Unity/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" --additional-cpp=\"/Users/Shared/Unity/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" --enable-debugger --incremental-g-c-time-slice=3 --avoid-dynamic-library-copy --profiler-report --map-file-parser=\"/Applications/Unity/Hub/Editor/2020.3.16f1/Unity.app/Contents/Tools/MapFileParser/MapFileParser\" --directory=\"/Users/Shared/Unity/PlaneDetectionWk3/Temp/StagingArea/Data/Managed\" --generatedcppdir=\"/Users/Shared/Unity/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/il2cppOutput\"",
+      "Annotation": "Il2Cpp /Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/il2cppOutput/Data/Metadata/global-metadata.dat",
+      "Action": "\"/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/il2cpp/build/deploy/netcoreapp3.1/il2cpp\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --additional-cpp=\"/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" --additional-cpp=\"/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" --enable-debugger --incremental-g-c-time-slice=3 --avoid-dynamic-library-copy --profiler-report --map-file-parser=\"/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/Tools/MapFileParser/MapFileParser\" --directory=\"/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed\" --generatedcppdir=\"/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/il2cppOutput\"",
       "Inputs": [
-        "/Users/Shared/Unity/PlaneDetectionWk3/Temp/StagingArea/Data/Managed",
-        "/Users/Shared/Unity/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
-        "/Users/Shared/Unity/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/Mono.Security.dll",
-        "/Users/Shared/Unity/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/System.Configuration.dll",
-        "/Users/Shared/Unity/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/System.Core.dll",
-        "/Users/Shared/Unity/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/System.Xml.dll",
-        "/Users/Shared/Unity/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/System.dll",
-        "/Users/Shared/Unity/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/Unity.XR.ARFoundation.dll",
-        "/Users/Shared/Unity/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/Unity.XR.ARKit.dll",
-        "/Users/Shared/Unity/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/Unity.XR.ARSubsystems.dll",
-        "/Users/Shared/Unity/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/Unity.XR.Management.dll",
-        "/Users/Shared/Unity/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.ARModule.dll",
-        "/Users/Shared/Unity/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll",
-        "/Users/Shared/Unity/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.GameCenterModule.dll",
-        "/Users/Shared/Unity/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll",
-        "/Users/Shared/Unity/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.InputModule.dll",
-        "/Users/Shared/Unity/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.dll",
-        "/Users/Shared/Unity/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll",
-        "/Users/Shared/Unity/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll",
-        "/Users/Shared/Unity/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.SpatialTracking.dll",
-        "/Users/Shared/Unity/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.SubsystemsModule.dll",
-        "/Users/Shared/Unity/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll",
-        "/Users/Shared/Unity/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.dll",
-        "/Users/Shared/Unity/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/mscorlib.dll",
-        "\"/Applications/Unity/Hub/Editor/2020.3.16f1/Unity.app/Contents/il2cpp/build/deploy/netcoreapp3.1/il2cpp\""
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/Mono.Security.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/System.Configuration.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/System.Core.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/System.Xml.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/System.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/Unity.XR.ARFoundation.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/Unity.XR.ARKit.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/Unity.XR.ARSubsystems.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/Unity.XR.Management.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.AIModule.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.ARModule.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.AndroidJNIModule.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.AssetBundleModule.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.DirectorModule.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.GameCenterModule.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.InputModule.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.SpatialTracking.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.SubsystemsModule.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.TerrainModule.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.UIElementsNativeModule.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.VFXModule.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.VRModule.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.VideoModule.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/UnityEngine.dll",
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Temp/StagingArea/Data/Managed/mscorlib.dll",
+        "\"/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/il2cpp/build/deploy/netcoreapp3.1/il2cpp\""
       ],
       "Outputs": [
-        "/Users/Shared/Unity/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/il2cppOutput/Data/Metadata/global-metadata.dat"
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/il2cppOutput/Data/Metadata/global-metadata.dat"
       ],
       "TargetDirectories": [],
       "PassIndex": 0,
@@ -63,13 +82,13 @@
       "DebugActionIndex": 1
     },
     {
-      "Annotation": "Copy Additional C++ File /Users/Shared/Unity/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp",
-      "Action": "TMPFILE=$(mktemp \"/Users/Shared/Unity/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp.tmpXXXXX\") && cp -af \"/Users/Shared/Unity/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" \"${TMPFILE}\" && touch -h -c \"${TMPFILE}\" && mv -f \"${TMPFILE}\" \"/Users/Shared/Unity/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp\" ",
+      "Annotation": "Copy Additional C++ File /Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp",
+      "Action": "TMPFILE=$(mktemp \"/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp.tmpXXXXX\") && cp -af \"/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" \"${TMPFILE}\" && touch -h -c \"${TMPFILE}\" && mv -f \"${TMPFILE}\" \"/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp\" ",
       "Inputs": [
-        "/Users/Shared/Unity/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp"
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp"
       ],
       "Outputs": [
-        "/Users/Shared/Unity/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp"
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp"
       ],
       "TargetDirectories": [],
       "PassIndex": 0,
@@ -86,13 +105,13 @@
       "DebugActionIndex": 2
     },
     {
-      "Annotation": "Copy Additional C++ File /Users/Shared/Unity/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp",
-      "Action": "TMPFILE=$(mktemp \"/Users/Shared/Unity/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp.tmpXXXXX\") && cp -af \"/Users/Shared/Unity/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" \"${TMPFILE}\" && touch -h -c \"${TMPFILE}\" && mv -f \"${TMPFILE}\" \"/Users/Shared/Unity/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp\" ",
+      "Annotation": "Copy Additional C++ File /Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp",
+      "Action": "TMPFILE=$(mktemp \"/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp.tmpXXXXX\") && cp -af \"/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" \"${TMPFILE}\" && touch -h -c \"${TMPFILE}\" && mv -f \"${TMPFILE}\" \"/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp\" ",
       "Inputs": [
-        "/Users/Shared/Unity/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp"
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp"
       ],
       "Outputs": [
-        "/Users/Shared/Unity/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp"
+        "/Users/mking1/Workspace/PlaneDetectionAR/PlaneDetectionAR/PlaneDetectionWk3/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp"
       ],
       "TargetDirectories": [],
       "PassIndex": 0,
@@ -111,7 +130,7 @@
   ],
   "FileSignatures": [
     {
-      "File": "../../../../../../maddystar/Library"
+      "File": "../../../../../../../Library"
     },
     {
       "File": "../../../Temp/StagingArea/Data/Managed"

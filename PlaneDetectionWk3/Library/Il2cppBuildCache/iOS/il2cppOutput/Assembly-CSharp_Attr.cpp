@@ -496,7 +496,7 @@ static void AssemblyU2DCSharp_CustomAttributesCacheGenerator(CustomAttributesCac
 		DebuggableAttribute__ctor_m7FF445C8435494A4847123A668D889E692E55550(tmp, 263LL, NULL);
 	}
 }
-static void PlaceOnPlane_t3DF0B6A936DE2BB24AF3A85695A36F2D6048A9C3_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+static void PlaceAndScaleOnPlane_t8D8E9DF0D65B77A552648DBB151588F71E665307_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -525,7 +525,7 @@ static void PlaceOnPlaneTouchOnly_tC79F66D8C8B2557B057CB0CECDFE417CBF77982A_Cust
 IL2CPP_EXTERN_C const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
 const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[3] = 
 {
-	PlaceOnPlane_t3DF0B6A936DE2BB24AF3A85695A36F2D6048A9C3_CustomAttributesCacheGenerator,
+	PlaceAndScaleOnPlane_t8D8E9DF0D65B77A552648DBB151588F71E665307_CustomAttributesCacheGenerator,
 	PlaceOnPlaneTouchOnly_tC79F66D8C8B2557B057CB0CECDFE417CBF77982A_CustomAttributesCacheGenerator,
 	AssemblyU2DCSharp_CustomAttributesCacheGenerator,
 };

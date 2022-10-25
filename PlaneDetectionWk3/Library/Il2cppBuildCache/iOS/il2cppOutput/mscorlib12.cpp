@@ -1146,6 +1146,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* TargetException__ctor_m5E8597C351C9FD90A8A0
 IL2CPP_EXTERN_C const RuntimeMethod* TargetException__ctor_m7211877232E49E0C9ED160340283EE106CCA74B5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TargetException__ctor_mD6228BEDFBB1FB07EAC26E58409DEBF1DE71D454_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TargetInvocationException__ctor_m045631DE7C42A1265F6BA06397D1857343AB5D95_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TargetInvocationException__ctor_m5436E5EE63CBC376FADE4422FDC24067402E42A9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TargetInvocationException__ctor_m676C5105AAF68AF6364C4440EC74D5E2A1C5613B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TargetInvocationException__ctor_mFF9A1FD2D2C2F12B17DC683313B5FF78CADD339D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TargetParameterCountException__ctor_m00DC9D7B69AE7B2075E481458D5F333C333D3B06_RuntimeMethod_var;
@@ -32579,6 +32580,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TargetInvocationException__ctor_mFF9A1FD
 		String_t* L_0;
 		L_0 = Environment_GetResourceString_m8DFF827596B5FD533D3FE56900FA095F7D674617(_stringLiteralE339DF174F0285F4F59AC02D3FAAE1A231173552, /*hidden argument*/NULL);
 		Exception_t * L_1 = ___inner0;
+		ApplicationException__ctor_m81FC14233935AF3572D8136E4CA9DD7BBA6FC861(__this, L_0, L_1, /*hidden argument*/NULL);
+		Exception_SetErrorCode_m92A787DA80F9CBC81E05D158F3D8099A8F1DD44D(__this, ((int32_t)-2146232828), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Reflection.TargetInvocationException::.ctor(System.String,System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TargetInvocationException__ctor_m5436E5EE63CBC376FADE4422FDC24067402E42A9 (TargetInvocationException_t30F4C50D323F448CD2E08BDB8F47694B08EB354C * __this, String_t* ___message0, Exception_t * ___inner1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TargetInvocationException__ctor_m5436E5EE63CBC376FADE4422FDC24067402E42A9_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TargetInvocationException__ctor_m5436E5EE63CBC376FADE4422FDC24067402E42A9_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		String_t* L_0 = ___message0;
+		Exception_t * L_1 = ___inner1;
 		ApplicationException__ctor_m81FC14233935AF3572D8136E4CA9DD7BBA6FC861(__this, L_0, L_1, /*hidden argument*/NULL);
 		Exception_SetErrorCode_m92A787DA80F9CBC81E05D158F3D8099A8F1DD44D(__this, ((int32_t)-2146232828), /*hidden argument*/NULL);
 		return;
